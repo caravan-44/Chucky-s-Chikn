@@ -1,0 +1,44 @@
+/* Chucky's Chikn — shared styles */
+*{box-sizing:border-box}
+body{margin:0;font-family:Fredoka,sans-serif;background:#FFD93B;color:#2B1A0E}
+h1,h2,h3,.logo,.btn,.st{font-family:'Bowlby One',sans-serif;font-weight:400;margin:0}
+h1{font-size:clamp(44px,7vw,72px)}
+a{color:#2B1A0E}
+.nav{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding:18px 40px;background:#2B1A0E}
+.nav div{display:flex;gap:20px;flex-wrap:wrap}
+.nav a{color:#FFF4B8;font-weight:600;font-size:18px;text-decoration:none}
+.nav a:hover,.nav a:focus-visible{color:#FFD93B}
+.nav .logo{color:#FFD93B;font-size:28px}
+.wrap{max-width:1100px;margin:0 auto;padding:56px 24px}
+.card{background:#FFF4B8;border:4px solid #2B1A0E;border-radius:24px;padding:24px;box-shadow:6px 6px 0 #2B1A0E}
+.card h3{font-size:24px;margin-bottom:8px}
+.card p{margin:0;font-size:18px;line-height:1.4}
+.price{color:#A31F15;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.btn{display:inline-block;background:#C8281C;color:#FFF4B8;border:4px solid #2B1A0E;border-radius:999px;padding:12px 28px;text-decoration:none;box-shadow:4px 4px 0 #2B1A0E;margin:0 12px 12px 0}
+.btn:hover{color:#fff}
+.alt{background:#FFF4B8;color:#2B1A0E}
+.st{display:flex;align-items:center;justify-content:center;text-align:center;border-radius:50%;background:#C8281C;color:#FFF4B8;border:6px solid #2B1A0E;box-shadow:8px 8px 0 #2B1A0E;line-height:1}
+.sec{display:inline-block;background:#C8281C;color:#FFF4B8;padding:6px 24px;border-radius:999px;border:4px solid #2B1A0E;font-size:30px;margin:40px 0 24px}
+.banner{margin-top:48px;background:#C8281C;color:#FFF4B8;border:4px solid #2B1A0E;border-radius:24px;padding:32px;text-align:center;box-shadow:6px 6px 0 #2B1A0E}
+.banner h2{font-size:clamp(26px,4vw,34px)}
+.banner p{font-size:20px;margin:12px 0 0}
+.hero{display:flex;flex-wrap:wrap;gap:40px;align-items:center;justify-content:space-between}
+.hero-text{flex:1 1 480px}
+.hero h1{font-size:clamp(48px,8vw,84px);line-height:.95}
+.kicker{margin:0 0 12px;font-weight:600;font-size:20px;color:#A31F15}
+.lead{font-size:22px;max-width:520px;margin:24px 0 32px;line-height:1.4}
+.sticker{width:260px;height:260px;font-size:44px;transform:rotate(-8deg)}
+.about{display:flex;flex-wrap:wrap;gap:40px;margin-top:32px;align-items:flex-start}
+.photo{flex:0 1 320px;text-align:center}
+.photo img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:16px;border:4px solid #2B1A0E;display:block;margin-bottom:16px}
+.story{flex:1 1 480px;font-size:21px;line-height:1.55}
+.story p{margin:0 0 20px}
+.contact{display:flex;flex-wrap:wrap;gap:32px;margin-top:32px}
+.formcard{flex:1 1 480px;display:flex;flex-direction:column;gap:8px;font-size:18px;font-weight:600}
+.side{flex:1 1 320px;display:flex;flex-direction:column;gap:24px}
+input,textarea{padding:12px;font:inherit;border:3px solid #2B1A0E;border-radius:12px;margin-bottom:12px}
+button.btn{font-size:18px;cursor:pointer;align-self:flex-start}
+.foot{background:#2B1A0E;color:#FFF4B8;text-align:center;padding:28px;font-size:16px}
+.foot small{display:block;font-size:14px;margin-top:8px}
+@media (prefers-reduced-motion:no-preference){.btn{transition:transform .15s}.btn:hover{transform:translateY(-2px)}}
